@@ -1,14 +1,23 @@
 #include <stdio.h>
-// Write a C program to calculate the area of a rectangle:
-// using hard coded inputs, using inputs supplied by the user
+// Program to calculate the area of a rectangle:
+// Method 1: Hardcoded values
+// Method 2: User input
 
-// area using hard coded inputs
 int main()
 {
-    int length = 5, breadth = 6;
-    int area = length * breadth;
-    printf("Area of the rectangle is %d", area);
+    // Hardcoded
+    int l1 = 5, b1 = 6;
+    printf("Hardcoded area: %d\n", l1 * b1);
+
+    //   User input
+    int length, breadth;
+    printf("Enter length: ");
+    scanf("%d", &length);
+
+    printf("Enter breadth ");
+    scanf("%d", &breadth);
+
+    printf("User input area: %d\n", length * breadth);
+
     return 0;
 }
-
-// area using inputs supplied by the user
