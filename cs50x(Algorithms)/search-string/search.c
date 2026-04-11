@@ -3,14 +3,14 @@
 
 int main(void)
 {
-    char strings[] = {'battleship', 'boot', 'cannon', 'iron', 'thimble', 'top hat'};
+    char *strings[] = {"battleship", "boot", "cannon", "iron", "thimble", "top hat"};
 
-    char s;
+    char s[10];
     printf("What string are you looking for: ");
-    scanf("%c", s);
+    scanf("%s", s);
     for (int i = 0; i < 6; i++)
     {
-        if (strings[i] == s)
+        if (strcmp(strings[i], s) == 0)
         {
             printf("Found\n");
             return 0;
