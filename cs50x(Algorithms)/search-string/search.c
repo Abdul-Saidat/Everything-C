@@ -7,7 +7,7 @@ int main(void)
 
     char s[10];
     printf("What string are you looking for: ");
-    scanf("%s", s);
+    scanf("%9s", s);
     for (int i = 0; i < 6; i++)
     {
         if (strcmp(strings[i], s) == 0)

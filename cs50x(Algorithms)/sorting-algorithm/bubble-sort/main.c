@@ -18,5 +18,4 @@
 //          Swap them
 //  If no swaps
 //      Quit
-
 // The lower bound of bubble sort running time will be  omega(n), since I will make only one pass through the list

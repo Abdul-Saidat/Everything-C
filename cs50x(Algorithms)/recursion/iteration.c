@@ -23,9 +23,8 @@ int main(void)
 //             printf("#");
 //         }
 //         printf("\n");
-//     }
+//     }                             // for each row (i)   print (i + 1) hashes (what the nested for's above do)
 // }
-
 
 // with recursion
 void draw(int n)

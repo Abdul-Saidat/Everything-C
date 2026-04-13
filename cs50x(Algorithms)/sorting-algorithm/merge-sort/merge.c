@@ -13,17 +13,17 @@
 
 
 // 6 3 4 1  5 2 7 0
-// Sort left half:   6 3 4 1 => 6 3: sort the left half of the right half => 6 
-// Sort the right half => 3
+// Sort left half:   6 3 4 1 => 6 3: sort the left half of the left half => 6 
+// Sort the right half of the left half => 3
 // merge: 3 6 
 
 // Sort the right half: 4 1: sort the left half of the right half => 4
-// Sort the other right half => 1
+// Sort the right half of the right half => 1
 // merge: 1 4
 
 // Merge: 1 3 4 6
 
-// Sort left half: 5 2 7 0 => 5 2: sort the left half of the right half => 5
+// Sort right half: 5 2 7 0 => 5 2: sort the left half of the right half => 5
 // sort the right half => 2
 // merge: 2 5
 
